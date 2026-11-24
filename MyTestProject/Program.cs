@@ -1,7 +1,13 @@
 ﻿
-int number1 = 1;
+using MyTestProject;
 
-int number2 = 2;
+Person person = new Person();
 
-Console.WriteLine($"the summation of {number1} + {number2} = " +
-    $"{number1 + number2}");
+person.Id = 1;
+person.FullName = "Mamoun Haimour";
+person.PhoneNumber = "0787872164";
+
+Console.Write($"Person Id: {person.Id}");
+Console.Write($"Person Id: {person.FullName}");
+Console.Write($"Person Id: {person.PhoneNumber}");
+
